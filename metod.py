@@ -7,7 +7,7 @@ class huhaha:
 	        1 : 'Senin', #ganti nickname user
 	        2 : 'Selasa', #ganti password (koko)
 	    }
-        x = float(input('Seting data pengguna'))
+        x = float(input('Seting data pengguna\n1 = Ganti nama user\n2 = Ganti password'))
         print('Hari : %s' % options.setdefault(x, 'Inputan hanya 1 - 7'))
 
     def selesai(self, waktu):
