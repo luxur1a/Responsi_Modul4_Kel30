@@ -24,9 +24,9 @@ print("Buat Password 2")
 pin2=buatpassword()
 
 print("Login")
-print("(1)", user1)
-print("(2)", user2)
-print("Input 1 atau 2")
+print(user1)
+print(user2)
+print("Input Username")
 user = input()
 p = metod.huhaha(user, pin1, pin2)
 if user == user1:
@@ -34,5 +34,6 @@ if user == user1:
     
 else:
     p.ulang2()
+
 p.mulai()
 p.selesai(10)
